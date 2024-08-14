@@ -4,7 +4,7 @@
 4-osc@osc:~$ mv nour/one.txt /home/osc/Downloads
 5-osc@osc:~$ cp ~/Downloads/one.txt ~/Downloads/copy.txt
 6-osc@osc:~$ cd nour
-7-osc@osc:~/nour$ nano two.txt (write nour ctrl o,ctrl x)
+7-osc@osc:~/nour$ nano two.txt 
 8-osc@osc:~/nour$ echo "1-hello OSC 2-hello OSC 3-hello OSC 4-hello OSC 5-hello OSC 6-hello OSC 7-hello OSC 8-hello OSC">>three.txt
 9-osc@osc:~/nour$ mv three.txt hello.txt
 10-osc@osc:~/nour$ rm four.txt
