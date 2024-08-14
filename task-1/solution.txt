@@ -1,9 +1,9 @@
 1-osc@osc:~$ mkdir nour
-2-osc@osc:~$ cd nour  osc@osc:~/nour$ touch one.txt two.txt three.txt four.txt
-3-osc@osc:~/nour$ mkdir BAD  osc@osc:~/nour$ touch BAD/bad.txt
-4-osc@osc:~/nour$ mv one.txt /home/osc/Downloads
-5-osc@osc:~/nour$ cd /home/osc/Downloads  osc@osc:~/Downloads$ cp one.txt copy.txt
-6-osc@osc:~/Downloads$ cd /home/osc/nour
+2-osc@osc:~$ touch nour/one.txt nour/two.txt nour/three.txt nour/four.txt 
+3-osc@osc:~$ mkdir nour/BAD   osc@osc:~$ touch nour/BAD/bad.txt 
+4-osc@osc:~$ mv nour/one.txt /home/osc/Downloads
+5-osc@osc:~$ cp ~/Downloads/one.txt ~/Downloads/copy.txt
+6-osc@osc:~$ cd nour
 7-osc@osc:~/nour$ nano two.txt (write nour ctrl o,ctrl x)
 8-osc@osc:~/nour$ echo "1-hello OSC 2-hello OSC 3-hello OSC 4-hello OSC 5-hello OSC 6-hello OSC 7-hello OSC 8-hello OSC">>three.txt
 9-osc@osc:~/nour$ mv three.txt hello.txt
