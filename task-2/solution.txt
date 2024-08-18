@@ -8,5 +8,5 @@ git checkout -b intro
 echo "I love Git" >> greeting.txt
 git add greeting.txt git commit -m "Added I love Git"
 git checkout main    git merge intro
-git tag v1
+git tag -a v1
 git push origin main git push origin v1
