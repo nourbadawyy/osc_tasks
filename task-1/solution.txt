@@ -9,3 +9,4 @@
 9-osc@osc:~/nour$ mv three.txt hello.txt
 10-osc@osc:~/nour$ rm four.txt
 11-osc@osc:~/nour$ rm -r BAD
+12-compare for pull
